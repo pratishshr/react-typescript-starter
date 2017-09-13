@@ -1,7 +1,8 @@
 {
-  "name": "typed-react",
+  "name": "react-typescript",
   "version": "0.1.0",
   "private": true,
+  "description": "React Typescript Starter",
   "scripts": {
     "precommit": "lint-staged",
     "lint": "tslint -c tslint.json src/**/*.{js,ts,tsx}; exit 0",
@@ -54,9 +55,5 @@
     "npm-run-all": "^4.1.1",
     "prettier": "^1.6.1",
     "tslint": "^5.7.0"
-  },
-  "engines": {
-    "node": ">= 6.9.0",
-    "npm": ">= 3.10.8"
   }
 }
