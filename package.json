@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript",
+  "name": "react-typescript-starter",
   "version": "0.1.0",
   "private": true,
   "description": "React Typescript Starter",
@@ -14,7 +14,7 @@
     "build": "run-s build-css && react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "prettify": "prettier --single-quote --write \"src/**/*.{ts,js,json}\""
+    "prettify": "prettier --single-quote --write \"src/**/*.{ts,js,tsx,json}\""
   },
   "lint-staged": {
     "*.{ts,js}": [
