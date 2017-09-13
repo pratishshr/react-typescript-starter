@@ -3,10 +3,10 @@ import * as qs from 'qs';
 /**
  * Convert url query string to object.
  * 
- * @param string queryString 
+ * @param {string} queryString 
  * @returns T
  */
-export function parseQueryString<T>(queryString: string): T {
+export function parse<T>(queryString: string): T {
   if (queryString.substr(0, 1) === '?') {
     queryString = queryString.substr(1);
   }
@@ -17,8 +17,8 @@ export function parseQueryString<T>(queryString: string): T {
 /**
  * Conver url query params to string
  * 
- * @param queryParams 
+ * @param {object} queryParams 
  */
-export function toQueryString(queryParams: {}) {
+export function stringify(queryParams: {}) {
   return `?${qs.stringify(queryParams)}`;
 }
