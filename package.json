@@ -1,0 +1,40 @@
+{
+  "name": "typed-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "node-sass-chokidar": "^0.0.3",
+    "qs": "^6.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts-ts": "2.6.0",
+    "recompose": "^0.25.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.27",
+    "@types/qs": "^6.5.0",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "@types/react-redux": "^5.0.8",
+    "@types/react-router-dom": "^4.0.7",
+    "@types/recompose": "^0.24.1",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
+    "npm-run-all": "^4.1.1"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/assets/css -o src/assets/css",
+    "watch-css": "npm run build-css && node-sass-chokidar src/assets/css -o src/assets/css --watch --recursive",
+    "start-js": "react-scripts-ts start",
+    "start": "run-p watch-css start-js",
+    "build": "run-s build-css && react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
