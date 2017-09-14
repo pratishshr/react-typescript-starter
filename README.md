@@ -1,5 +1,5 @@
-# REACT-TYPESCRIPT
-Starter pack for React projects in Typescript.
+# BACKBONE-NM-WEB
+Backbone App Frontend.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

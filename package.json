@@ -1,8 +1,7 @@
 {
-  "name": "react-typescript-starter",
-  "version": "0.1.0",
+  "name": "backbone-nm-web",
+  "version": "0.0.1",
   "private": true,
-  "description": "React Typescript Starter",
   "scripts": {
     "precommit": "lint-staged",
     "lint": "tslint -c tslint.json src/**/*.{js,ts,tsx}; exit 0",
