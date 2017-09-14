@@ -1,7 +1,8 @@
 import * as React from 'react';
+import { FormattedMessage } from 'react-intl';
 
 const Home = () => (
-  <h1>React TypeScript</h1>
+  <FormattedMessage id="app.welcome" />
 );
 
 export default Home;
