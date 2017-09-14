@@ -2392,8 +2392,8 @@ http-errors@~1.6.1, http-errors@~1.6.2:
     statuses ">= 1.3.1 < 2"
 
 http-parser-js@>=0.4.0:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.5.tgz#a3ecf39a667481a38ca60882ab57a2db578b9970"
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.6.tgz#195273f58704c452d671076be201329dd341dc55"
 
 http-proxy-middleware@~0.17.4:
   version "0.17.4"
@@ -2528,8 +2528,8 @@ internal-ip@^1.2.0:
     meow "^3.3.0"
 
 interpret@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.3.tgz#cbc35c62eeee73f19ab7b10a801511401afc0f90"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.4.tgz#820cdd588b868ffb191a809506d6c9c8f212b1b0"
 
 intl-format-cache@^2.0.5:
   version "2.0.5"
@@ -3651,8 +3651,8 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
 mz@^2.4.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/mz/-/mz-2.6.0.tgz#c8b8521d958df0a4f2768025db69c719ee4ef1ce"
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/mz/-/mz-2.7.0.tgz#95008057a56cafadc2bc63dde7f9ff6955948e32"
   dependencies:
     any-promise "^1.0.0"
     object-assign "^4.0.1"
